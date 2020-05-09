@@ -5,7 +5,7 @@
   - [Dockerfile](#dockerfile)
   - [Commands to run (Irrelevant if using docker-compose)](#commands-to-run-irrelevant-if-using-docker-compose)
   - [Docker Compose](#docker-compose)
-  - [OUTPUT](#output)
+  - [Sample Output](#sample-output)
 
 ## Update (10-May-2020)
 - Now includes support for Web view export as well. 
@@ -143,7 +143,7 @@ $ docker-compose down
 ```
 
 
-## OUTPUT
+## Sample Output
 ```bash
 $ docker-compose build
 Building oit
