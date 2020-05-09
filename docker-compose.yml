@@ -7,9 +7,8 @@ services:
             - oit_output:/home/oit/outputs
             - oit_samplefiles:/home/oit/samplefiles
             - oit_fonts:/home/oit/fonts
-        command: ["bash", "start.sh"]
-        # command: ["java", "-cp", "oilink.jar:oitsample.jar", "OITSample", "/home/oit/samplefiles/adobe-acrobat.pdf", "/home/oit/outputs/test.tif", "tiff", "/home/oit/fonts"]
-        # command: ["./exsimple", "/home/oit/samplefiles/adobe-acrobat.pdf", "/home/oit/outputs/testsimple.tif", "default.cfg"]
+        ports: 
+            - 8080:8888
 
 volumes: 
     oit_fonts:
