@@ -1,0 +1,5 @@
+http://localhost:8080/invoke/01E89VEX67NG8G00GZJ0000002
+
+curl -X "POST" -H "Content-Type: application/json" http://localhost:8080/invoke/01E89VEX67NG8G00GZJ0000002
+
+curl -X "POST" -H "Content-Type: application/json" -d '{"name":"Divyaksh"}' http://localhost:8080/invoke/01E89VEX67NG8G00GZJ0000002
